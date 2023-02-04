@@ -1,6 +1,7 @@
+lesson = {'riazi','farsi','english'}
 class University:
     person = 0
-    def __init__(self,name,age,bool(certificate)):
+    def __init__(self,name,age,certificate):
         self.name = name
         self.age = age
         self.certificate = certificate
@@ -9,10 +10,8 @@ class University:
         person -= 1
 
 class Student(University):
-    if self.certificate == 'diplom':
-        pass
-    else:
-        return 'be dalile nabood madrak kafi shoma hagh sabt nam nadarid'
+
+    def Conditionally(self):
 
 class Perfossor(University):
     if self.certificate == 'fogh':
